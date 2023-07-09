@@ -2,6 +2,7 @@ import '../css/Homepage.css'
 import { FaCode, FaPenNib, FaPalette } from "react-icons/fa6";
 
 const Homepage = () => {
+
   return (
     <>
       
@@ -72,29 +73,25 @@ const Homepage = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="w-box rounded mt-4">
-                <img src="/src/imgs/portfolio/p1.jpg" alt="" />
+                <img src="/src/imgs/p1.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="w-box rounded mt-4">
-                <img src="/src/imgs/portfolio/p2.jpg" alt="" />
+                <img src="/src/imgs/p2.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="w-box rounded mt-4">
-                <img src="/src/imgs/portfolio/p3.jpg" alt="" />
+                <img src="/src/imgs/p3.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="w-box rounded mt-4">
-                <img src="/src/imgs/portfolio/p4.jpg" alt="" />
+                <img src="/src/imgs/p4.jpg" alt="" />
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="w-box rounded mt-4">
-                <img src="/src/imgs/portfolio/p5.jpg" alt="" />
-              </div>
-            </div>
+            
 
           </div>
 
