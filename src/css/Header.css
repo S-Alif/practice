@@ -1,0 +1,25 @@
+/* design for header section */
+
+.home{
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../imgs/main-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+}
+
+.home .container{
+  height: inherit;
+}
+
+.home h1,
+.home p{
+  color: aliceblue;
+}
+
+.home p{
+  font-size: 18px;
+}

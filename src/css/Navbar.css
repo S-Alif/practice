@@ -1,0 +1,21 @@
+/* designs for navbar */
+
+.navbar{
+  width: 100%;
+  height: auto;
+  background:  var(--bs-body-bg);
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-bottom-style: dashed;
+}
+
+.navbar .nav-link{
+  color: var(--text-dark);
+}
+
+.navbar .navbar-collapse{
+  background: #fff;
+  width: 100%!important;
+}
+.navbar .navbar-nav{
+  background: #fff;
+}
