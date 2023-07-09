@@ -12,7 +12,7 @@ const Homepage = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="image rounded">
-                <img src="/src/imgs/about.jpg" alt="" />
+                <img src="/imgs/about.jpg" alt="" />
               </div>
             </div>
 
@@ -73,22 +73,27 @@ const Homepage = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="w-box rounded mt-4">
-                <img src="/src/imgs/p1.jpg" alt="" />
+                <img src="/imgs/p1.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="w-box rounded mt-4">
-                <img src="/src/imgs/p2.jpg" alt="" />
+                <img src="/imgs/p2.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="w-box rounded mt-4">
-                <img src="/src/imgs/p3.jpg" alt="" />
+                <img src="/imgs/p3.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="w-box rounded mt-4">
-                <img src="/src/imgs/p4.jpg" alt="" />
+                <img src="/imgs/p4.jpg" alt="" />
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="w-box rounded mt-4">
+                <img src="/imgs/p5.jpg" alt="" />
               </div>
             </div>
             
