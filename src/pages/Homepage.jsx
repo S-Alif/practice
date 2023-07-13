@@ -1,11 +1,24 @@
 import '../css/Homepage.css'
 import { FaCode, FaPenNib, FaPalette } from "react-icons/fa6";
 
+// import componenets
+import Footer from "../components/Footer"
+import Header from "../components/header"
+import Navbar from "../components/navbar"
+import Contact from '../components/Contact';
+
 const Homepage = () => {
 
   return (
     <>
-      
+      <Navbar />
+      <Header />
+
+      <div className="alert d-none" role="alert">
+        A simple success alert—check it out!
+      </div>
+
+
       <section className="about my-section" id="about">
         <div className="container">
           <div className="row">
@@ -104,35 +117,8 @@ const Homepage = () => {
       </section>
 
 
-      <section className="my-section contact bg-body-tertiary" id="contact">
-        <div className="container">
-          <h4 className="section-title text-uppercase fw-bolder fs-6 text-danger pb-5 mb-3 text-center">send a message</h4>
-
-          <form action="">
-            <div className="row">
-
-              <div className="col-lg-4 col-md-6 mt-4">
-                <input type="text" name="name" className="form-control text-dark-emphasis fw-medium" id="name" placeholder="Your name" required />
-              </div>
-              <div className="col-lg-4 col-md-6 mt-4">
-                <input type="email" name="emai" className="form-control text-dark-emphasis fw-medium" id="email" placeholder="Your email" required />
-              </div>
-              <div className="col-lg-4 mt-4">
-                <input type="text" name="subject" className="form-control text-dark-emphasis fw-medium" id="subject" placeholder="Subject" required />
-              </div>
-              <div className="col-lg-12 mt-4 mb-4">
-                <textarea name="msg" id="msg" className="form-control text-dark-emphasis fw-medium" cols="100" rows="10" placeholder="Your message" required />
-              </div>
-
-              <div className="col-lg-12 text-end">
-                <button type="submit" id="submit-btn" className="text-capitalize btn btn-success btn-lg pe-4 ps-4 rounded-pill">submit</button>
-              </div>
-
-            </div>
-          </form>
-          
-        </div>
-      </section>
+      <Contact />
+      <Footer />
 
     </>
   );
