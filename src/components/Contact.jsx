@@ -5,9 +5,9 @@ const Contact = () => {
 
   let form_check = () => {
     let name = document.getElementById('name')
-    // let email = document.getElementById('email')
-    // let sub = document.getElementById('subject')
-    // let msg = document.getElementById('msg')
+    let email = document.getElementById('email')
+    let sub = document.getElementById('subject')
+    let msg = document.getElementById('msg')
 
     if (name.value.length < 3 || name.value == "") {
       <Alert alertClass="alert-danger" alertMsg="Name cannot be less that 3 characters or empty" />
