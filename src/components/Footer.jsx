@@ -16,7 +16,7 @@ const Footer = () => {
               </div>
 
               <p className="lead text-light">
-                <FaCopyright /> <a href="" className="text-decoration-none text-light fw-bold ps-1">Logo</a> | | All Rights Reserved 2023
+                <FaCopyright /> <a href="" className="text-decoration-none text-light fw-bold ps-1">Logo</a> | | All Rights Reserved
               </p>
           </div>
 
