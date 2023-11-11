@@ -1,7 +1,7 @@
 const Alert = (alertMsg, alertClass) => {
   return (
     <>
-      <div className={`alert ${alertClass}`} role="alert">
+      <div className={`alert ${alertClass}`} role="alert" id="new-alert">
         {alertMsg}
       </div>
     </>
